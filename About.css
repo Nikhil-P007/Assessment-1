@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body,	html{
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: white
+}
+nav{
+	height: 70px;
+	background-color: rgb(0,0,0);
+	box-shadow: 0 5px 8px rgba(0,0,0,.2 );
+	position: sticky; 
+	top: 0;
+	z-index: 100;
+}
+
+nav	.logo{
+	display: block;
+	width: 300px;
+	height: 50px;
+	position: absolute; top: 30%; left:0;
+	margin-top: 0;
+	margin-left: 0;
+	background: url(Images/logo.png) no-repeat 0 0;
+	background-size: 100%
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: italic;
+	text-decoration: none;
+	color: white;
+	padding: 25px 10px;
+}
+
+img{
+	transform: translateY(23px);
+	padding-left: 15px;
+	height: 300px;
+	width: 225px;
+	float: left
+}
+
+.top img{
+	border-radius: 50%;
+	height: 300px;
+	width: 350px;
+	transform: translateX(550px);
+}
+
+.top h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	transform: translate(-165px, 310px);
+	color: grey
+} 
+
+.A-G{
+	float: left;
+	padding-left: 15px;
+	height: 500px
+	width: 900px;
+	transform: translateY(0px);
+}
+
+.A-G p{
+	font-size: 20px;
+}
+
+.A-G ul{
+	font-size: 20px;
+}
+
+.About-Me{
+	height: 300px;
+	width: 1150px;
+	float: right;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding-right: 10px;
+}
+
+.About-Me p{
+	font-size: 20px
+}
+
+.About-Me h1{
+	font-weight: bold;
+}

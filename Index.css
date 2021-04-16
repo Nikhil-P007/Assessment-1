@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body,	html{
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: white
+}
+
+.Main{
+	padding: 0;
+	margin: 0;
+	background-color: #696969;
+	height: 763px;
+	width: 800px;
+	float: right;
+	overflow-x: hidden;
+}
+
+.Main	h2{
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+	transform: translate(180px, 185px);
+}
+
+.Main	h4{
+	text-align: center;
+	padding: 25px;
+	font-size: 25px;
+	color: white;
+	transform: translate(0, 150px);
+}
+
+.Image img{
+	padding: 0;
+	margin: 0;
+	height: 763px;
+	width: 640px;
+	position: relative;
+	right: 0;
+	top: 0;
+	overflow-x: hidden;
+}
+
+nav{
+	height: 70px;
+	background-color: rgb(0,0,0);
+	box-shadow: 0 5px 8px rgba(0,0,0,.2 );
+	position: sticky; 
+	top: 0;
+	z-index: 100;
+}
+
+nav	.logo{
+	display: block;
+	width: 300px;
+	height: 50px;
+	position: absolute; top: 30%; left:0;
+	margin-top: 0;
+	margin-left: 0;
+	background: url(Images/logo.png) no-repeat 0 0;
+	background-size: 100%
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: italic;
+	text-decoration: none;
+	color: white;
+	padding: 25px 10px;
+}
+
